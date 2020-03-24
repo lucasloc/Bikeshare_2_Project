@@ -1,3 +1,8 @@
 ### Udacity Project - Bikeshare2 - 23/03/2020
 
+### Project Description
+This script uses Python to explore data related to bike share systems for three major cities in the United States, the cities of Chicago, New York City, and Washington
+
+It takes the user´s raw inputs to explore data in the .csv file and show data for the user  
+ 
 
