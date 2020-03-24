@@ -184,6 +184,8 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data(df):
+ """Show raw data to the user."""
+ 
     start=0
     end=5
     i=0
