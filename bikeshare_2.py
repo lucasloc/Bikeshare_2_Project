@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -132,9 +133,8 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # TO DO: display total travel time
+    """Converting time from secunds to day,hour,minute and seconds."""
     total_time = df["Trip Duration"].sum()
-    
     tt_day =int(total_time//86400)
     tt_hour = int((total_time%86400)//3600)
     tt_min = int(((total_time % 86400) %3600)//60)
@@ -143,6 +143,7 @@ def trip_duration_stats(df):
     print( "Total travel time:",tt_day,"d",tt_hour,"h",tt_min,"min",tt_seg,"s","\n")
 
     # TO DO: display mean travel time
+    """Converting time from secunds to day,hour,minute and seconds."""
     tm_time= df["Trip Duration"].mean()
     tm_day =int(tm_time//86400)
     tm_hour = int((tm_time%86400)//3600)
@@ -184,7 +185,7 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data(df):
- """Show raw data to the user."""
+    """Show raw data to the user."""
  
     start=0
     end=5
