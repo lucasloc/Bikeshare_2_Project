@@ -11,7 +11,7 @@ To run this script you will need:
 Python 3, NumPy, and pandas installed using Anaconda, chicago.csv, new_york_city.csv, washington.csv
 
 
-###Datasets Info
+### Datasets Info
 
 Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
 
@@ -27,7 +27,7 @@ The Chicago and New York City files also have the following two columns:
 Gender
 Birth Year
 
-###Statistics Computed
+### Statistics Computed
 
 You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this script will provide the following information:
 
